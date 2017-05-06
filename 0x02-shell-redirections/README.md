@@ -10,4 +10,5 @@
 7. writes the result of ls -la into file ls_cwd_content using
 8. creates a file containing text using "echo Holberton School > \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)"
 9. duplicated the last line of file "iacta" using "tail -n 1 iacta"
-10. deletes all regular files with a .js extension that is in the current directory and all of its subfolders using "find . -type f -name '*.js' -delete'"
+10. deletes all regular files with a .js extension that is in the current directory and all of its subfolders using "find . -type f -name ' *
+11. 
