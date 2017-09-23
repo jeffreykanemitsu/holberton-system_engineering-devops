@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Display number 1-100. Display %3&5 FizzBuzz, Display %3 as Fizz, display %5 Buzz
+for i in {1..100}
+do
+    if ! ((i % 15)) ; then
+        echo FizzBuzz
+    elif ! ((i % 5)); then
+        echo Fizz
+    elif ! ((i % 3)); then
+        echo Buzz
+    else
+        echo "$i"
+    fi
+done
