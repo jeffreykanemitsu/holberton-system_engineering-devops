@@ -3,6 +3,6 @@
 list="$(ls)"
 for i in $list
 do
-    i=$(echo "$i" | cut -c 3-)
+    i=$(echo "$i" | cut -d'-' -f1 --complement)
     echo "$i"
 done 
