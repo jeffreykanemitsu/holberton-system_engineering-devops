@@ -3,7 +3,7 @@
 </a>
 </p>
 
-![gcc](https://img.shields.io/badge/Shellcheck-lightgrey.svg)
+![shellcheck](https://img.shields.io/badge/Shellcheck-lightgrey.svg)
 
 # 0x05. Processes and signals  #
 
@@ -33,7 +33,7 @@
 Understanding concepts of system engineering and DevOps.
 
 <p align="center">
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="http://www.unixstickers.com/image/cache/data/stickers/C/C%20language.sh-600x600.png"/>
+<a href="https://www.reddit.com/r/devops/comments/3rpzem/devops_vs_sysadmin/"><img src="http://static1.squarespace.com/static/58b71e6f6a4963b4cc2c78b8/58d02ebbdb29d67782682bff/58d02ed3bebafbc474c7a529/1494356728752/AAEAAQAAAAAAAAKYAAAAJDQ5YmZjODZkLTU5YmEtNDBjZi1iM2E2LWEyNjdjYTk4NWZhNQ.png?format=1000w"/>
 </a>
 </p>
 
