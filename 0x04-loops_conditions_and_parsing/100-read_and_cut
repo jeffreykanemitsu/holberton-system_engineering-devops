@@ -4,5 +4,5 @@
 # must use while loop. for and until are forbidden
 while IFS= read passwd
 do
-    echo $passwd | cut -d: -f1,4,6
+    echo "$passwd" | cut -d: -f1,4,6
 done < /etc/passwd
