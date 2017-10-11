@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# installs ngix on server and returns the string "Holberton School"
+# listening on port 80
+sudo apt-get update
+sudo apt-get -y install nginx
+service nginx start
+echo "Holberton School"
