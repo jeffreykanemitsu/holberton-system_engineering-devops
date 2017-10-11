@@ -4,4 +4,4 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 service nginx start
-echo "Holberton School"
+echo "Holberton School" > /usr/share/nginx/html/index.html
