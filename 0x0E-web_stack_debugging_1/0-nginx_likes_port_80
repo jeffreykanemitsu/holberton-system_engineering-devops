@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# reassigns port 80
-cat /etc/nginx/sites-available/default > /etc/nginx/sites-available/default
+# replace with default settings
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
 service nginx restart
