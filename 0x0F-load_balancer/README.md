@@ -4,7 +4,7 @@
 </p>
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-14.04_LTS-orange.svg)
-![Shellcheck](https://img.shields.io/badge/PEP8-v0.3.3-lightgrey.svg)
+![Shellcheck](https://img.shields.io/badge/Shellcheck-v0.3.3-lightgrey.svg)
 
 
 <h1 class="gap">0x0F. Load balancer</h1>
