@@ -27,7 +27,6 @@
 <ul>
 <li><a href="/rltoken/3AOvROMUNUrzxEWhli4GTw" target="_blank" title="Ignore">Ignore</a> <a href="/rltoken/i5f8DYX_rRYFz4hfbG_GJg" target="_blank" title="SC2154">SC2154</a> for <code>shellcheck</code></li>
 </ul></li>
-</ul><p>Example:</p>
 
 
 <h4 class="task">
@@ -41,5 +40,4 @@
 <li>Make sure that HAproxy can be managed via an init script</li>
 <li>Make sure that your servers are configured with the right hostnames: <code>[STUDENT_ID]-web-01</code> and <code>[STUDENT_ID]-web-02</code>. If not, follow this <a href="/rltoken/P7nGAS_YjgHdjAt8KTgJbw" target="_blank" title="tutorial">tutorial</a>.</li>
 <li>For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements</li>
-</ul><p>Example:</p>
 
