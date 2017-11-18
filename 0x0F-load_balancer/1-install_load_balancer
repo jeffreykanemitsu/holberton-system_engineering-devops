@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# configures HAproxy on server
+sudo apt-get update
+sudo apt-get install -y haproxy
+echo ENABLED=1 | sudo tee /etc/default/haproxy
+sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/haproxy
+sudo cp haproxy.cfg haproxy.cfg.orig
+sudo sed -i '36 i listen appname 0.0.0.0:80\n\tmode http\n\tstats enable\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 217-web-01 142.44.167.24 check\n\tserver 217-web-02 144.217.246.211:80 check' /etc/haproxy/haproxy.cfg
+sudo service haproxy start
