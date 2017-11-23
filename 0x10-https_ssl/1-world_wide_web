@@ -2,11 +2,12 @@
 # displays information about subdomains
 # shellcheck disable=SC2086
 dig_func() {
- 	ip_address=$(dig $2.$1 | awk '/ANSWER SECTION:/{getline; print $5}')
-	echo The subdomain $sub is a A record and points to $ip_address
+ 	ip_address=$( dig "$2.$1" | awk '/ANSWER SECTION:/{getline; print $5}' )
+	echo "The subdomain "$2" is a A record and points to" "$ip_address"
 }
 
 subdomain=( "www" "lb-01" "web-01" "web-02" )
+
 if [ $# -eq 1 ]; then
     for sub in "${subdomain[@]}"
     do
