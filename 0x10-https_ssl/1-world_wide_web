@@ -7,7 +7,7 @@ dig_func() {
 }
 
 subdomain=( "www" "lb-01" "web-01" "web-02" )
-if [ -z "$2" ]; then
+if [ $# -eq 1 ]; then
     for sub in "${subdomain[@]}"
     do
         dig_func "$1" "$sub"
