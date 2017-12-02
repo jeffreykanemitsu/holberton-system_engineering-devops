@@ -15,27 +15,3 @@
 <li>Web server</li>
 <li>Application server</li>
 <li>Database</li>
-</ul><p>Shares the URL of your blog post in your answer file and in the field below.</p><div class="blog_post_div">
-<h4> Add URLs here:</h4>
-<div class="form-group row">
-<div class="col-sm-11">
-<input class="form-control" id="input_1646" type="text" value=""/>
-</div>
-<div class="col-sm-1">
-<button class="add_task_url" data-task-id="1646" data-task-requesting="0" data-user-id="217" type="button">
-<span aria-hidden="true" class="glyphicon glyphicon-plus"></span>
-</button>
-</div>
-</div>
-<ul class="list_1646">
-<li>
-<button class="remove_blog_post" data-task-id="1646" data-task-requesting="0" data-task-url-id="835" id="1646" type="button">
-<span aria-hidden="true" class="glyphicon glyphicon-minus"></span>
-</button>
-<a href="https://medium.com/holbertonbatch3/what-happens-when-you-type-https-www-holbertonschool-com-in-your-browser-and-press-enter-107bd0c9a12c" target="_blank">https://medium.com/holbertonbatch3/what-happens-when-you-type-https-www-holbertonschool-com-in-your-browser-and-press-enter-107bd0c9a12c</a>
-</li>
-</ul>
-</div>
-
-
-      </span>
