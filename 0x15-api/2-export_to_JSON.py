@@ -11,8 +11,8 @@ import json
 if __name__ == "__main__":
     EMPLOYEE_ID = argv[1]
     URL = 'https://jsonplaceholder.typicode.com'
-    USERNAME = requests.get(URL + '/users/' + EMPLOYEE_ID).json().get('username')
-    TODO_LIST = requests.get(URL + '/todos?userId=' + EMPLOYEE_ID).json()
+    USERNAME = requests.get(URL+'/users/'+EMPLOYEE_ID).json().get('username')
+    TODO_LIST = requests.get(URL+'/todos?userId='+EMPLOYEE_ID).json()
 
     ALL_TASKS = []
     for task in TODO_LIST:
