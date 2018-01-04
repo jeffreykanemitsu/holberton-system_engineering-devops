@@ -3,9 +3,9 @@
 for a given employee ID, return info about his/her TODO list progress and
 export data in the CSV format
 '''
+import csv
 import requests
 from sys import argv
-import csv
 
 
 if __name__ == "__main__":

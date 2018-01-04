@@ -3,9 +3,9 @@
 for a given employee ID, return info about his/her TODO list progress and
 export data in JSON format
 '''
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":
