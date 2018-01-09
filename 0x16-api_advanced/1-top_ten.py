@@ -11,12 +11,12 @@ def top_ten(subreddit):
     returns top ten hot postss
     '''
     try:
-        url = 'http://www.reddit.com/r/{:s}/hot.json?limit=10'
-        .format(subreddit)
+        url = 'http://www.reddit.com/r/{:s}/hot.json?limit=10'.format(
+            subreddit)
         headers = {'User-agent': 'Jeffrey'}
         r = requests.get(url, headers=headers)
         ten = r.json().get('data').get('children')
         for num in ten:
             print(num.get('data').get('title'))
-    except:
+    except BaseException:
         print(None)
